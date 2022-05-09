@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: school.sptech.projeto1.heranca.ProdutoInternacionalTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in school.sptech.projeto1.heranca.ProdutoInternacionalTest
+getPrecoQuandoAcionadoDeveRetornarOValorDoPreco  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <7999.9839999999995> but was: <4999.99>
+	at school.sptech.projeto1.heranca.ProdutoInternacionalTest.getPrecoQuandoAcionadoDeveRetornarOValorDoPreco(ProdutoInternacionalTest.java:58)
+
+getPrecoQuandoAcionadoEProdutoPossuiValor499999DeveRetornar799998  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <7999.9839999999995> but was: <4999.99>
+	at school.sptech.projeto1.heranca.ProdutoInternacionalTest.getPrecoQuandoAcionadoEProdutoPossuiValor499999DeveRetornar799998(ProdutoInternacionalTest.java:14)
+
